@@ -1,4 +1,4 @@
-package Modelos;
+package MVC_javaHolamundo;
 
 public class mimodelo {
 

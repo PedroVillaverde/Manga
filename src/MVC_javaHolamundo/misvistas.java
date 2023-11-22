@@ -1,4 +1,4 @@
-package Vistas;
+package MVC_javaHolamundo;
 
 import java.awt.EventQueue;
 
