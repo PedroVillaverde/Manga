@@ -1,4 +1,4 @@
-package MVC_javaHolamundo;
+package readMangax;
 
 import java.awt.EventQueue;
 
