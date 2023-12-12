@@ -1,6 +1,6 @@
 package readMangax;
 
-public class mimodelo {
+public class Mimodelo {
 	public String texto;
 
     public String getTexto() {

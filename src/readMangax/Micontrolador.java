@@ -1,10 +1,10 @@
 package readMangax;
 
-public class micontrolador {
-	   private mimodelo modelo;
+public class Micontrolador {
+	   private Mimodelo modelo;
 	    private Misvistas vista;
 
-	    public micontrolador(mimodelo modelo, Misvistas vista) {
+	    public Micontrolador(Mimodelo modelo, Misvistas vista) {
 	        this.modelo = modelo;
 	        this.vista = vista;
 

@@ -7,9 +7,9 @@ public class ReadMangax {
 	        EventQueue.invokeLater(new Runnable() {
 	            public void run() {
 	                try {
-	                    mimodelo modelo = new mimodelo();
+	                    Mimodelo modelo = new Mimodelo();
 	                    	Misvistas vista = new Misvistas();
-	                    micontrolador controlador = new micontrolador(modelo, vista);
+	                    Micontrolador controlador = new Micontrolador(modelo, vista);
 
 	                    vista.setVisible(true);
 	                } catch (Exception e) {
