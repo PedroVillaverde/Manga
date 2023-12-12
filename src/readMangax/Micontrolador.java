@@ -9,8 +9,7 @@ public class Micontrolador {
 	        this.vista = vista;
 
 	
-	        vista.gettxtNombre().setText("ReadMangax");
-	        vista.gettxtNombre().setFont(new java.awt.Font("Arial", java.awt.Font.BOLD, 14));
+	      
     }
 }
 
