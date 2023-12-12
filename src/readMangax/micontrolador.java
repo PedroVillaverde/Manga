@@ -9,8 +9,8 @@ public class micontrolador {
 	        this.vista = vista;
 
 	
-	        vista.getTxtNombre().setText("Nombre del Programa");
-	        vista.getTxtNombre().setFont(new java.awt.Font("Arial", java.awt.Font.BOLD, 14));
+	        vista.gettxtNombre().setText("ReadMangax");
+	        vista.gettxtNombre().setFont(new java.awt.Font("Arial", java.awt.Font.BOLD, 14));
     }
 }
 

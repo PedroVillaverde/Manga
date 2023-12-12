@@ -1,8 +1,6 @@
 package readMangax;
 
 import java.awt.BorderLayout;
-import java.awt.EventQueue;
-
 import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
@@ -29,16 +27,16 @@ public class Misvistas extends JFrame {
 	        setContentPane(contentPane);
 	        contentPane.setLayout(new BorderLayout(0, 0));
 
-	        txtNombre = new JLabel("Nombre del Programa"); 
+	        txtNombre = new JLabel("ReadMangax"); 
 	        contentPane.add(txtNombre, BorderLayout.NORTH);
 
-	        JButton btnNewButton = new JButton("New button");
+	         btnNewButton = new JButton("New button");
 	        contentPane.add(btnNewButton, BorderLayout.CENTER);
 
-	        JButton btnNewButton_1 = new JButton("New button");
+	         btnNewButton_1 = new JButton("New button");
 	        contentPane.add(btnNewButton_1, BorderLayout.EAST);
 	}
-	public JLabel getTxtNombre() {
+	public JLabel gettxtNombre() {
         return txtNombre;
     }
 }
