@@ -1,15 +1,16 @@
 package readMangax;
 
 public class micontrolador {
-    private mimodelo modelo;
-    private misvistas vista;
+	   private mimodelo modelo;
+	    private Misvistas vista;
 
-    public micontrolador(mimodelo modelo, misvistas vista) {
-        this.modelo = modelo;
-        this.vista = vista;
+	    public micontrolador(mimodelo modelo, Misvistas vista) {
+	        this.modelo = modelo;
+	        this.vista = vista;
 
-        vista.getLblNombrePrograma().setText("Botones");
-        vista.getLblNombrePrograma().setFont(new java.awt.Font("Arial", java.awt.Font.BOLD, 14));
+	
+	        vista.getTxtNombre().setText("Nombre del Programa");
+	        vista.getTxtNombre().setFont(new java.awt.Font("Arial", java.awt.Font.BOLD, 14));
     }
 }
 
