@@ -11,12 +11,13 @@ public class ReadMangax {
 	        EventQueue.invokeLater(new Runnable() {
 	            public void run() {
 	                try {
-	                    Mimodelo modelo = new Mimodelo();
-	                    	Misvistas vista = new Misvistas();
-	                    Micontrolador controlador = new Micontrolador(modelo, vista);
+	                    Mimodelo mgmod = new Mimodelo();
+	                    	Misvistas mgvist = new Misvistas();
+	                    Micontrolador mgcont = new Micontrolador(mgmod, mgvist);
 
-	                    vista.setVisible(true);
+	                    mgvist.setVisible(true);
 	                } catch (Exception e) {
+	                	
 	                    e.printStackTrace();
 	                }
 	            }

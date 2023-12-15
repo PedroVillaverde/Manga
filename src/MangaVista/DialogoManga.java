@@ -18,9 +18,9 @@ public class DialogoManga extends JDialog {
 	 */
 	public static void main(String[] args) {
 		try {
-			DialogoManga dialog = new DialogoManga();
-			dialog.setDefaultCloseOperation(JDialog.DISPOSE_ON_CLOSE);
-			dialog.setVisible(true);
+			DialogoManga dial = new DialogoManga();
+			dial.setDefaultCloseOperation(JDialog.DISPOSE_ON_CLOSE);
+			dial.setVisible(true);
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
