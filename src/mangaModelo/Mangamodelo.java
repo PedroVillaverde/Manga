@@ -1,6 +1,6 @@
 package mangaModelo;
 
-public class Mimodelo {
+public class Mangamodelo {
 	public String texto;
 
     public String getTexto() {

@@ -8,45 +8,56 @@ import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
+import java.awt.Color;
+import javax.swing.JComboBox;
 
-public class Misvistas extends JFrame {
+public class Mangasvistas extends JFrame {
 
 	private static final long serialVersionUID = 1L;
     private JPanel contentPane;
     private JLabel txtNombre; 
-	JButton btnNewButton;
-	JButton btnNewButton_1;
+	JButton btnBoton1;
+	JButton btnBoton2;
+	private JButton btnBoton;
 
 	/**
 	 * Create the frame.
 	 */
-	public Misvistas() {
+	public Mangasvistas() {
+		setBackground(new Color(0, 255, 128));
 		 setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-	        setBounds(100, 100, 450, 300);
+	        setBounds(100, 100, 487, 314);
 	        contentPane = new JPanel();
 	        contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 
 	        setContentPane(contentPane);
 	        contentPane.setLayout(new BorderLayout(0, 0));
 
-	        txtNombre = new JLabel("ReadMangax"); 
+	        txtNombre = new JLabel("ReadMangax");
 	        contentPane.add(txtNombre, BorderLayout.NORTH);
 
-	         btnNewButton = new JButton("Boton1");
-	         btnNewButton.addActionListener(new ActionListener() {
+	         btnBoton1 = new JButton("Boton1");
+	         btnBoton1.addActionListener(new ActionListener() {
 	         	public void actionPerformed(ActionEvent e) {
 	         		System.out.println("Hola a todos");
 	         	}
 	         });
-	        contentPane.add(btnNewButton, BorderLayout.CENTER);
+	        contentPane.add(btnBoton1, BorderLayout.CENTER);
 
-	         btnNewButton_1 = new JButton("Boton2");
-	         btnNewButton_1.addActionListener(new ActionListener() {
+	         btnBoton2 = new JButton("Boton2");
+	         btnBoton2.addActionListener(new ActionListener() {
 	         	public void actionPerformed(ActionEvent e) {
 	         		System.out.println("Estas pulsando el Boton 2");
 	         	}
 	         });
-	        contentPane.add(btnNewButton_1, BorderLayout.EAST);
+	        contentPane.add(btnBoton2, BorderLayout.EAST);
+	        
+	        btnBoton = new JButton("Boton");
+	        btnBoton.addActionListener(new ActionListener() {
+	        	public void actionPerformed(ActionEvent e) {
+	        	}
+	        });
+	        contentPane.add(btnBoton, BorderLayout.WEST);
 	}
 	public JLabel gettxtNombre() {
         return txtNombre;
