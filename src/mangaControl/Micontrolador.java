@@ -4,12 +4,12 @@ import mangaModelo.Mimodelo;
 import mangaVista.Misvistas;
 
 public class Micontrolador {
-	   private Mimodelo magamod;
-	    private Misvistas magavist;
+	   private Mimodelo mangamod;
+	    private Misvistas mangavist;
 
 	    public Micontrolador(Mimodelo mod, Misvistas vist) {
-	        this.magamod = mod;
-	        this.magavist = vist;
+	        this.mangamod = mod;
+	        this.mangavist = vist;
 
 	
 	      

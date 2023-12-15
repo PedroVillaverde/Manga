@@ -6,6 +6,8 @@ import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
+import java.awt.event.ActionListener;
+import java.awt.event.ActionEvent;
 
 public class Misvistas extends JFrame {
 
@@ -30,10 +32,20 @@ public class Misvistas extends JFrame {
 	        txtNombre = new JLabel("ReadMangax"); 
 	        contentPane.add(txtNombre, BorderLayout.NORTH);
 
-	         btnNewButton = new JButton("New button");
+	         btnNewButton = new JButton("Boton1");
+	         btnNewButton.addActionListener(new ActionListener() {
+	         	public void actionPerformed(ActionEvent e) {
+	         		System.out.println("Hola a todos");
+	         	}
+	         });
 	        contentPane.add(btnNewButton, BorderLayout.CENTER);
 
-	         btnNewButton_1 = new JButton("New button");
+	         btnNewButton_1 = new JButton("Boton2");
+	         btnNewButton_1.addActionListener(new ActionListener() {
+	         	public void actionPerformed(ActionEvent e) {
+	         		System.out.println("Estas pulsando el Boton 2");
+	         	}
+	         });
 	        contentPane.add(btnNewButton_1, BorderLayout.EAST);
 	}
 	public JLabel gettxtNombre() {
