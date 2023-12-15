@@ -1,4 +1,4 @@
-package MangaVista;
+package mangaVista;
 
 import java.awt.BorderLayout;
 import java.awt.FlowLayout;

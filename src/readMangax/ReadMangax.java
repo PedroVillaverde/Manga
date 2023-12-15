@@ -2,9 +2,9 @@ package readMangax;
 
 import java.awt.EventQueue;
 
-import MangaControl.Micontrolador;
-import MangaModelo.Mimodelo;
-import MangaVista.Misvistas;
+import mangaControl.Micontrolador;
+import mangaModelo.Mimodelo;
+import mangaVista.Misvistas;
 
 public class ReadMangax {
 	   public static void main(String[] args) {

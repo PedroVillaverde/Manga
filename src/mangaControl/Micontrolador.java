@@ -1,7 +1,7 @@
-package MangaControl;
+package mangaControl;
 
-import MangaModelo.Mimodelo;
-import MangaVista.Misvistas;
+import mangaModelo.Mimodelo;
+import mangaVista.Misvistas;
 
 public class Micontrolador {
 	   private Mimodelo magamod;

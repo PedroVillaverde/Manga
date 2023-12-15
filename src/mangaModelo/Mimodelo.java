@@ -1,4 +1,4 @@
-package MangaModelo;
+package mangaModelo;
 
 public class Mimodelo {
 	public String texto;
