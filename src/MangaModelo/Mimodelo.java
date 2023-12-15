@@ -1,4 +1,4 @@
-package readMangax;
+package MangaModelo;
 
 public class Mimodelo {
 	public String texto;

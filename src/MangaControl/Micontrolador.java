@@ -1,4 +1,7 @@
-package readMangax;
+package MangaControl;
+
+import MangaModelo.Mimodelo;
+import MangaVista.Misvistas;
 
 public class Micontrolador {
 	   private Mimodelo modelo;
