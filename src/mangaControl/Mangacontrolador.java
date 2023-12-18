@@ -10,7 +10,5 @@ public class Mangacontrolador {
     public Mangacontrolador(Mangamodelo mod, Mangasvistas vist) {
         this.mangamod = mod;
         this.mangavist = vist;
-
     }
-
 }
