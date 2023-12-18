@@ -15,9 +15,11 @@ public class MangaLook extends JPanel {
     public JButton btnShojo;
     public JButton btnJosei;
     public JButton btnEcchi;
+    public JButton btnRegistrarse;  
     public JLabel lblBuscar;
     public JTextField textField;
     public JLabel txtNombre;
+    public JLabel lblGeneros;  
 
     public MangaLook() {
         setLayout(null);
@@ -67,6 +69,16 @@ public class MangaLook extends JPanel {
         btnEcchi.setBounds(208, 148, 89, 23);
         btnEcchi.setBackground(new Color(255, 99, 71));  
         add(btnEcchi);
+
+        btnRegistrarse = new JButton("Registrarse");
+        btnRegistrarse.setFont(new Font("Tahoma", Font.BOLD, 11));
+        btnRegistrarse.setBounds(340, 218, 107, 23);
+        btnRegistrarse.setBackground(new Color(0, 191, 255));  
+        add(btnRegistrarse);
+
+        lblGeneros = new JLabel("Géneros de Manga");
+        lblGeneros.setBounds(10, 69, 117, 14);
+        add(lblGeneros);
 
         txtNombre = new JLabel("ReadMangax");
         txtNombre.setFont(new Font("Tahoma", Font.BOLD, 14));
