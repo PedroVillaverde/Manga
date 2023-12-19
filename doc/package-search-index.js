@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"mangaControl"},{"l":"mangaLook"},{"l":"mangaModelo"},{"l":"mangaVista"},{"l":"readMangax"}];updateSearchResults();

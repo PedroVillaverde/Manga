@@ -4,7 +4,10 @@ import java.awt.EventQueue;
 import mangaControl.Mangacontrolador;
 import mangaModelo.Mangamodelo;
 import mangaVista.Mangasvistas;
-
+/**
+ *@author Pedro; 
+ *
+ */
 public class ReadMangax {
     public static void main(String[] args) {
         EventQueue.invokeLater(new Runnable() {
